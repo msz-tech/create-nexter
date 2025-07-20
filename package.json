@@ -32,6 +32,7 @@
     "chalk": "^5.4.1",
     "cross-spawn": "^7.0.6",
     "figlet": "^1.8.2",
+    "fs-extra": "^11.3.0",
     "gradient-string": "^3.0.0",
     "prompts": "^2.4.2"
   },
