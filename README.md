@@ -1,9 +1,14 @@
 # create-nexter
 
-> A modern, extensible CLI to scaffold Next.js applications with a clean architecture and optional Tailwind CSS integration.
+> A modern and extensible CLI to scaffold your Next.js projects with a clean, scalable architecture.
+
 
 [![npm version](https://img.shields.io/npm/v/create-nexter.svg?style=flat-square)](https://www.npmjs.com/package/create-nexter)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+
+[![CI Status](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yml/badge.svg)](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yml)
+
+
 
 ---
 
@@ -16,17 +21,14 @@ Designed for frontend developers and teams who want consistency and speed when s
 
 ---
 
-## Features
+## 🚀 Features
 
-- ✅ Next.js 15.x scaffold
-- ⚡ TypeScript or JavaScript support
-- 🎨 Tailwind CSS 3.3.2 optional integration
-- 🧱 Clean architecture: `src/`, `pages/`, `components/`, etc.
-- 🧑‍🎨 Custom starter templates
-- 🖥️ Styled CLI interface
-- 🧩 Ready to extend in future versions (layouts, routing presets, etc.)
+- Interactive CLI with project language selection (JS/TS)
+- Uses `create-next-app` under the hood
+- Clean project setup with future support for custom architecture and Tailwind CSS
+- Designed for developers, scalable for teams
 
----
+
 
 ## Getting Started
 
@@ -36,14 +38,18 @@ To scaffold a new project, run:
 npx create-nexter my-app
 ```
 
-Follow the interactive prompts to choose:
-
-JavaScript or TypeScript
-
-With or without Tailwind CSS
+Follow the interactive prompts.
 
 Once complete, your project will be ready to start:
 ```bash
 cd my-app
 npm run dev
 ```
+## 🛠 Tech Stack
+Node.js (ESM)
+
+- prompts for interactive input
+
+- create-next-app for project generation (Next.js 15+)
+
+- Future integrations: Tailwind CSS, ESLint, CI/CD, templates...
