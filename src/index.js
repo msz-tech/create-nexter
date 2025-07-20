@@ -28,3 +28,4 @@ export default async function main() {
     console.error('❌ Error during project generation:', err);
   }
 }
+

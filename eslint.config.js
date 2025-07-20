@@ -5,18 +5,22 @@ import { defineConfig } from "eslint/config";
 export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
-    plugins: { js },
-    extends: ["js/recommended"],
-    env: {
-      node: true,       
-      es2021: true
-    },
     languageOptions: {
-      globals: globals.node 
-    }
-  },
-  {
-    files: ["**/*.{js,mjs,cjs}"],
-    languageOptions: { globals: globals.browser },
+      ecmaVersion: 2021,
+      sourceType: "module",
+      globals: {
+        ...globals.node,
+        ...globals.browser,
+      },
+    },
+  
+    ...js.configs.recommended,
+    rules: {
+      "no-var": "error",
+      "prefer-const": "warn",
+      "eqeqeq": "warn",
+      "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "no-console": "off",
+    },
   },
 ]);
