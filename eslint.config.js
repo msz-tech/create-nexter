@@ -7,6 +7,13 @@ export default defineConfig([
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
     extends: ["js/recommended"],
+    env: {
+      node: true,       
+      es2021: true
+    },
+    languageOptions: {
+      globals: globals.node 
+    }
   },
   {
     files: ["**/*.{js,mjs,cjs}"],
