@@ -6,7 +6,7 @@
 [![npm version](https://img.shields.io/npm/v/create-nexter.svg?style=flat-square)](https://www.npmjs.com/package/create-nexter)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-[![CI Status](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yml/badge.svg)](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yml)
+![Lint](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yaml/badge.svg?branch=main)
 
 
 
