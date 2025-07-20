@@ -3,12 +3,9 @@
 > A modern and extensible CLI to scaffold your Next.js projects with a clean, scalable architecture.
 
 
-[![npm version](https://img.shields.io/npm/v/create-nexter.svg?style=flat-square)](https://www.npmjs.com/package/create-nexter)
+![Lint](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yaml/badge.svg?branch=main&style=flat-square)
+![npm version](https://img.shields.io/badge/npm-coming--soon-lightgrey?style=flat-square)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-
-![Lint](https://github.com/msz-tech/create-nexter/actions/workflows/lint.yaml/badge.svg?branch=main)
-
-
 
 ---
 
