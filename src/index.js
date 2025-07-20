@@ -3,7 +3,7 @@ import languagePrompt from './prompts/languagePrompt.js';
 import generateProject from './generators/projectGenerator.js';
 
 export default async function main() {
-  console.log('✨ Welcome to create-nexter CLI!');
+ 
 
   const { language } = await languagePrompt();
 
