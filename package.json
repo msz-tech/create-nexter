@@ -1,0 +1,30 @@
+{
+  "name": "create-nexter",
+  "version": "1.0.0",
+  "description": "A modern, extensible CLI to scaffold Next.js applications with a clean architecture and optional Tailwind CSS integration.",
+  "type": "module",
+  "bin": {
+    "nexter": "./bin/nexter-cli.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "cli",
+    "scaffold",
+    "tailwind",
+    "typescript",
+    "javascript",
+    "starter"
+  ],
+  "author": "Mehdi ZAYANI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msz-tech/create-nexter.git"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
