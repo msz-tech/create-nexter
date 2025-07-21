@@ -2,6 +2,7 @@ import prompts from 'prompts';
 import languagePrompt from './prompts/languagePrompt.js';
 import generateProject from './generators/projectGenerator.js';
 import { cleanProject } from '../src/scripts/cleanProject.js';  
+import { copyTemplateFiles } from './utils/copyTemplateFiles.js';
 
 export default async function main() {
   const { language } = await languagePrompt();
@@ -19,8 +20,11 @@ export default async function main() {
   try {
     await generateProject(language, projectName);
 
-    
     await cleanProject(projectName, language);
+    
+    await copyTemplateFiles(projectName);
+
+    
 
     console.log('✅ Cleanup and structure completed.');
     console.log('🎉 Project created successfully!');
