@@ -67,17 +67,7 @@ npm run dev
     console.log('📝 Custom README added.');
 
  
-    const pageExt = isTs ? 'tsx' : 'jsx';
-    const indexContent = `export default function Home() {
-  return <h1 className="text-2xl font-bold">Welcome to ${projectName} 👋</h1>;
-}
-`;
-
-    await fs.writeFile(
-      path.join(projectPath, `src/pages/index.${pageExt}`),
-      indexContent
-    );
-    console.log(`📄 Created: src/pages/index.${pageExt}`);
+  
 
   } catch (err) {
     console.error('❌ Cleanup failed:', err);
