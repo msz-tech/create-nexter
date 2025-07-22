@@ -4,7 +4,7 @@
 
 
 ![CI](https://github.com/msz-tech/create-nexter/actions/workflows/ci.yaml/badge.svg?branch=main&style=flat-square)
-![npm version](https://img.shields.io/npm/v/create-nexter)
+[![npm version](https://img.shields.io/npm/v/create-nexter?style=flat-square)](https://www.npmjs.com/package/create-nexter)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ## Table of Contents

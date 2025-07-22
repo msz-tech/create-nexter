@@ -22,7 +22,7 @@ export default async function main() {
 
     await cleanProject(projectName, language);
     
-    await copyTemplateFiles(projectName);
+    await copyTemplateFiles(projectName, language);
 
     
 
