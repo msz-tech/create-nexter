@@ -34,7 +34,8 @@ export default function generateProject(language, projectName) {
           const extraDeps = [
           'tailwindcss@3.3.2',
           'postcss@8.4.21',
-          'autoprefixer@10.4.14'
+          'autoprefixer@10.4.14',
+          'lucide-react'
         ];
 
       const install = spawn('npm', ['install', '-D', ...extraDeps], {

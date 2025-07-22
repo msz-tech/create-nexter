@@ -1,9 +1,9 @@
+import { Hero } from "@/components/Hero";
+
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-light">
-      <h1 className="text-4xl font-bold text-primary-dark font-sans">
-        Welcome to your Create-Nexter app!
-      </h1>
+    <main className="min-h-screen bg-white">
+      <Hero />
     </main>
   );
 }
