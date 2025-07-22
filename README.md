@@ -4,7 +4,7 @@
 
 
 ![CI](https://github.com/msz-tech/create-nexter/actions/workflows/ci.yaml/badge.svg?branch=main&style=flat-square)
-![npm version](https://img.shields.io/npm/v/create-nexter)
+[![npm version](https://img.shields.io/npm/v/create-nexter?style=flat-square)](https://www.npmjs.com/package/create-nexter)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ## Table of Contents
@@ -59,6 +59,7 @@ npm run dev
 
 After generation, your project will have the following structure:
 
+- For Typescript project
 ```bash
 
     my-app/
@@ -66,13 +67,48 @@ After generation, your project will have the following structure:
     ├── src/
     │ ├── components/
     │ │ └── Hero.tsx
+    │ │ └── index.tsx
     │ ├── pages/
+    │ │ └── _app.tsx
     │ │ └── index.tsx
     │ └── styles/
     │ └── global.css
-    ├── tailwind.config.js
+    ├── .gitignore
+    ├── eslint.config.mjs
+    ├── next-env.d.ts
+    ├── next.config.ts
+    ├── package-lock.json
+    ├── package.json
     ├── postcss.config.js
-    └── package.json
+    ├── README.md
+    ├── tailwind.config.js
+    └── tsconfig.json
+
+```
+- For Javascript project
+```bash
+
+    my-app/
+    ├── public/
+    ├── src/
+    │ ├── components/
+    │ │ └── Hero.jsx
+    │ │ └── index.jsx
+    │ ├── pages/
+    │ │ └── _app.jsx
+    │ │ └── index.jsx
+    │ └── styles/
+    │ └── global.css
+    ├── .gitignore
+    ├── eslint.config.mjs
+    ├── next-env.d.ts
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    └── jsconfig.json
 
 ```
 
@@ -80,9 +116,8 @@ After generation, your project will have the following structure:
 ## 🛠 Tech Stack
 Node.js (ESM)
 
-- prompts for interactive input
-
-- create-next-app for project generation (Next.js 15+)
+- prompts for interactive input  
+- create-next-app for project generation (Next.js 15+)  
 
 ## Contributing
 

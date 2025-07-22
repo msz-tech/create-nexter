@@ -13,5 +13,5 @@ export function displayWelcome() {
 
   console.log(gradient.pastel.multiline(msg));
   console.log(chalk.cyanBright('Welcome to create-nexter CLI!\n'));
-console.log(chalk.white('Effortless Next.js project scaffolding, built for scalable and maintainable applications.\n'));
+  console.log(chalk.white('Effortless Next.js project scaffolding, built for scalable and maintainable applications.\n'));
 }
