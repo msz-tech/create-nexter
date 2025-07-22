@@ -31,7 +31,11 @@ export default function generateProject(language, projectName) {
       console.log('📦 Installing TailwindCSS and PostCSS plugins...');
 
       // Installer tailwindcss + plugins PostCSS obligatoires
-      const extraDeps = ['tailwindcss', '@tailwindcss/postcss', 'autoprefixer'];
+          const extraDeps = [
+          'tailwindcss@3.3.2',
+          'postcss@8.4.21',
+          'autoprefixer@10.4.14'
+        ];
 
       const install = spawn('npm', ['install', '-D', ...extraDeps], {
         cwd: path.resolve(projectName),
