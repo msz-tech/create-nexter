@@ -1,6 +1,6 @@
 {
   "name": "create-nexter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern, extensible CLI to scaffold Next.js applications with a clean architecture and optional Tailwind CSS integration.",
   "type": "module",
   "bin": {
