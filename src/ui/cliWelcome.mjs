@@ -2,12 +2,12 @@ import chalk from 'chalk';
 import figlet from 'figlet';
 import gradient from 'gradient-string';
 import boxen from 'boxen';
-import pkg from '../../package.json' assert { type: 'json' };
+
 export function displayWelcome() {
   console.clear();
 
   const asciiArt = figlet.textSync('Create Nexter', {
-    font: 'Small', // Font plus compacte
+    font: 'Small', 
     horizontalLayout: 'default',
     verticalLayout: 'default',
   });
@@ -17,7 +17,7 @@ export function displayWelcome() {
   const content = [
     gradientAscii,
     '',
-    chalk.cyanBright(`Version: ${pkg.version}`),
+    chalk.cyanBright('Version: 1.0.1'),
     '',
     chalk.whiteBright('Effortless Next.js project scaffolding'),
     chalk.whiteBright('Built for scalable and maintainable applications.'),
@@ -31,7 +31,7 @@ export function displayWelcome() {
 
   const box = boxen(content, {
     padding: 1,
-    margin: { top: 1, bottom: 0, left: 1, right: 1 }, // Top only, pas centré verticalement
+    margin: { top: 1, bottom: 0, left: 1, right: 1 }, 
     borderColor: 'magenta',
     borderStyle: 'round',
     align: 'center',
